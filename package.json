@@ -1,0 +1,16 @@
+{
+  "name": "ponte-corre-trilho",
+  "version": "1.0.0",
+  "description": "Ponte online TikTok Live -> Corre Trilho",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "tiktok-live-connector": "^2.0.0",
+    "ws": "^8.18.0"
+  }
+}
